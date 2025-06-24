@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Front controller for REST-style URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]

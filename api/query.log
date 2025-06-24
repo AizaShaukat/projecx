@@ -1,0 +1,4476 @@
+
+[2025-06-16 03:14:10] User Question:
+Show me all the groups of 2025 of computer engineering program and are of  software type 
+[2025-06-16 03:14:12] SQL LLM Response:
+Array
+(
+    [id] => chatcmpl-BiuaRsb4SO3MsK7NYAO6E64UXJafH
+    [object] => chat.completion
+    [created] => 1750043651
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => SELECT * FROM groups WHERE year = 2025 AND bs_program = 'Computer Engineering' AND project_type = 'Software';
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 893
+            [completion_tokens] => 25
+            [total_tokens] => 918
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 03:14:12] Generated SQL:
+SELECT * FROM `groups` WHERE year = 2025 AND bs_program = 'Computer Engineering' AND project_type = 'Software';
+[2025-06-16 03:14:12] SQL Query Results:
+Array
+(
+    [0] => Array
+        (
+            [id] => 27
+            [project_title] => Online Voting System
+            [tech_stack] => PHP, MySQL
+            [supervisor] => Mr. Tariq Jameel
+            [advisor] => Dr. Rehan Hafiz
+            [co_advisor] => Dr. Ali Ahmad
+            [defense_doc] => In Process
+            [mid_doc] => In Process
+            [final_doc] => In Process
+            [year] => 2025
+            [bs_program] => Computer Engineering
+            [project_type] => Software
+            [created_at] => 2025-06-09 15:43:33
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => 
+            [mid_file] => 
+            [final_file] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 30
+            [project_title] => Banking Management System
+            [tech_stack] => React Native, Java Script, AI/ML
+            [supervisor] => Asif ali
+            [advisor] => Dr. Rehan Hafiz
+            [co_advisor] => Dr. Ali Ahmad
+            [defense_doc] => Completed
+            [mid_doc] => Completed
+            [final_doc] => Completed
+            [year] => 2025
+            [bs_program] => Computer Engineering
+            [project_type] => Software
+            [created_at] => 2025-06-09 17:37:09
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => 
+            [mid_file] => 
+            [final_file] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 32
+            [project_title] => Serial Mood Analyzer
+            [tech_stack] => AI, ML
+            [supervisor] => Dr. Ali Ahmed
+            [advisor] => Dr. Rehan Hafiz
+            [co_advisor] => Mr. Usama Bin Shakeel
+            [defense_doc] => Completed
+            [mid_doc] => Completed
+            [final_doc] => In Process
+            [year] => 2025
+            [bs_program] => Computer Engineering
+            [project_type] => Software
+            [created_at] => 2025-06-15 08:33:11
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => uploads/684e3ef75838d_Aiza Shaukat-agentic.pdf
+            [mid_file] => 
+            [final_file] => 
+        )
+
+)
+
+[2025-06-16 03:14:21] Answer LLM Response:
+Array
+(
+    [id] => chatcmpl-BiuaS9EJG7RYNOIf643ECAtz996pJ
+    [object] => chat.completion
+    [created] => 1750043652
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => **Computer Engineering Program - 2025 Software Projects**
+
+**1. Online Voting System**
+- **ID:** 27
+- **Tech Stack:** PHP, MySQL
+- **Supervisor:** Mr. Tariq Jameel
+- **Advisor:** Dr. Rehan Hafiz
+- **Co-Advisor:** Dr. Ali Ahmad
+- **Defense Document:** In Process
+- **Mid Document:** In Process
+- **Final Document:** In Process
+- **Created At:** 2025-06-09 15:43:33
+
+---
+
+**2. Banking Management System**
+- **ID:** 30
+- **Tech Stack:** React Native, Java Script, AI/ML
+- **Supervisor:** Asif Ali
+- **Advisor:** Dr. Rehan Hafiz
+- **Co-Advisor:** Dr. Ali Ahmad
+- **Defense Document:** Completed
+- **Mid Document:** Completed
+- **Final Document:** Completed
+- **Created At:** 2025-06-09 17:37:09
+
+---
+
+**3. Serial Mood Analyzer**
+- **ID:** 32
+- **Tech Stack:** AI, ML
+- **Supervisor:** Dr. Ali Ahmed
+- **Advisor:** Dr. Rehan Hafiz
+- **Co-Advisor:** Mr. Usama Bin Shakeel
+- **Defense Document:** Completed
+- **Mid Document:** Completed
+- **Final Document:** In Process
+- **Created At:** 2025-06-15 08:33:11
+- **Proposal File:** uploads/684e3ef75838d_Aiza Shaukat-agentic.pdf
+
+---
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 692
+            [completion_tokens] => 335
+            [total_tokens] => 1027
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 03:14:24] Chart LLM Response:
+Array
+(
+    [id] => chatcmpl-BiuaccFGHHm131mAwdNSFbqEbzH8v
+    [object] => chat.completion
+    [created] => 1750043662
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => {
+  "type": "bar",
+  "labels": ["Online Voting System", "Banking Management System", "Serial Mood Analyzer"],
+  "datasets": [
+    { "label": "Projects", "data": [1, 1, 1] }
+  ]
+}
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 513
+            [completion_tokens] => 57
+            [total_tokens] => 570
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_62a23a81ef
+)
+
+[2025-06-16 03:14:24] Parsed Chart JSON:
+Array
+(
+    [type] => bar
+    [labels] => Array
+        (
+            [0] => Online Voting System
+            [1] => Banking Management System
+            [2] => Serial Mood Analyzer
+        )
+
+    [datasets] => Array
+        (
+            [0] => Array
+                (
+                    [label] => Projects
+                    [data] => Array
+                        (
+                            [0] => 1
+                            [1] => 1
+                            [2] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+[2025-06-16 03:14:24] Final Output:
+Array
+(
+    [query] => SELECT * FROM `groups` WHERE year = 2025 AND bs_program = 'Computer Engineering' AND project_type = 'Software';
+    [answer] => **Computer Engineering Program - 2025 Software Projects**
+
+**1. Online Voting System**
+- **ID:** 27
+- **Tech Stack:** PHP, MySQL
+- **Supervisor:** Mr. Tariq Jameel
+- **Advisor:** Dr. Rehan Hafiz
+- **Co-Advisor:** Dr. Ali Ahmad
+- **Defense Document:** In Process
+- **Mid Document:** In Process
+- **Final Document:** In Process
+- **Created At:** 2025-06-09 15:43:33
+
+---
+
+**2. Banking Management System**
+- **ID:** 30
+- **Tech Stack:** React Native, Java Script, AI/ML
+- **Supervisor:** Asif Ali
+- **Advisor:** Dr. Rehan Hafiz
+- **Co-Advisor:** Dr. Ali Ahmad
+- **Defense Document:** Completed
+- **Mid Document:** Completed
+- **Final Document:** Completed
+- **Created At:** 2025-06-09 17:37:09
+
+---
+
+**3. Serial Mood Analyzer**
+- **ID:** 32
+- **Tech Stack:** AI, ML
+- **Supervisor:** Dr. Ali Ahmed
+- **Advisor:** Dr. Rehan Hafiz
+- **Co-Advisor:** Mr. Usama Bin Shakeel
+- **Defense Document:** Completed
+- **Mid Document:** Completed
+- **Final Document:** In Process
+- **Created At:** 2025-06-15 08:33:11
+- **Proposal File:** uploads/684e3ef75838d_Aiza Shaukat-agentic.pdf
+
+---
+    [chartData] => Array
+        (
+            [type] => bar
+            [labels] => Array
+                (
+                    [0] => Online Voting System
+                    [1] => Banking Management System
+                    [2] => Serial Mood Analyzer
+                )
+
+            [datasets] => Array
+                (
+                    [0] => Array
+                        (
+                            [label] => Projects
+                            [data] => Array
+                                (
+                                    [0] => 1
+                                    [1] => 1
+                                    [2] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [rawResults] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 27
+                    [project_title] => Online Voting System
+                    [tech_stack] => PHP, MySQL
+                    [supervisor] => Mr. Tariq Jameel
+                    [advisor] => Dr. Rehan Hafiz
+                    [co_advisor] => Dr. Ali Ahmad
+                    [defense_doc] => In Process
+                    [mid_doc] => In Process
+                    [final_doc] => In Process
+                    [year] => 2025
+                    [bs_program] => Computer Engineering
+                    [project_type] => Software
+                    [created_at] => 2025-06-09 15:43:33
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => 
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+            [1] => Array
+                (
+                    [id] => 30
+                    [project_title] => Banking Management System
+                    [tech_stack] => React Native, Java Script, AI/ML
+                    [supervisor] => Asif ali
+                    [advisor] => Dr. Rehan Hafiz
+                    [co_advisor] => Dr. Ali Ahmad
+                    [defense_doc] => Completed
+                    [mid_doc] => Completed
+                    [final_doc] => Completed
+                    [year] => 2025
+                    [bs_program] => Computer Engineering
+                    [project_type] => Software
+                    [created_at] => 2025-06-09 17:37:09
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => 
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+            [2] => Array
+                (
+                    [id] => 32
+                    [project_title] => Serial Mood Analyzer
+                    [tech_stack] => AI, ML
+                    [supervisor] => Dr. Ali Ahmed
+                    [advisor] => Dr. Rehan Hafiz
+                    [co_advisor] => Mr. Usama Bin Shakeel
+                    [defense_doc] => Completed
+                    [mid_doc] => Completed
+                    [final_doc] => In Process
+                    [year] => 2025
+                    [bs_program] => Computer Engineering
+                    [project_type] => Software
+                    [created_at] => 2025-06-15 08:33:11
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => uploads/684e3ef75838d_Aiza Shaukat-agentic.pdf
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+        )
+
+)
+
+[2025-06-16 03:15:01] User Question:
+Show me all the groups of 2025 of computer engineering program and are of  software type and hardaware type
+[2025-06-16 03:15:03] SQL LLM Response:
+Array
+(
+    [id] => chatcmpl-BiubGGaszcQEQ5jMhcElW55hSsYhr
+    [object] => chat.completion
+    [created] => 1750043702
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => SELECT * FROM groups WHERE year = 2025 AND bs_program = 'Computer Engineering' AND (project_type = 'Software' OR project_type = 'Hardware');
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 896
+            [completion_tokens] => 33
+            [total_tokens] => 929
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 03:15:03] Generated SQL:
+SELECT * FROM `groups` WHERE year = 2025 AND bs_program = 'Computer Engineering' AND (project_type = 'Software' OR project_type = 'Hardware');
+[2025-06-16 03:15:03] SQL Query Results:
+Array
+(
+    [0] => Array
+        (
+            [id] => 27
+            [project_title] => Online Voting System
+            [tech_stack] => PHP, MySQL
+            [supervisor] => Mr. Tariq Jameel
+            [advisor] => Dr. Rehan Hafiz
+            [co_advisor] => Dr. Ali Ahmad
+            [defense_doc] => In Process
+            [mid_doc] => In Process
+            [final_doc] => In Process
+            [year] => 2025
+            [bs_program] => Computer Engineering
+            [project_type] => Software
+            [created_at] => 2025-06-09 15:43:33
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => 
+            [mid_file] => 
+            [final_file] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 30
+            [project_title] => Banking Management System
+            [tech_stack] => React Native, Java Script, AI/ML
+            [supervisor] => Asif ali
+            [advisor] => Dr. Rehan Hafiz
+            [co_advisor] => Dr. Ali Ahmad
+            [defense_doc] => Completed
+            [mid_doc] => Completed
+            [final_doc] => Completed
+            [year] => 2025
+            [bs_program] => Computer Engineering
+            [project_type] => Software
+            [created_at] => 2025-06-09 17:37:09
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => 
+            [mid_file] => 
+            [final_file] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 31
+            [project_title] => Online Voting System
+            [tech_stack] => PHP, MySQL
+            [supervisor] => Mr. Tariq Jameel
+            [advisor] => Dr. Rehan Hafiz
+            [co_advisor] => Dr. Ali Ahmad
+            [defense_doc] => In Process
+            [mid_doc] => In Process
+            [final_doc] => In Process
+            [year] => 2025
+            [bs_program] => Computer Engineering
+            [project_type] => Hardware
+            [created_at] => 2025-06-12 22:04:33
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => 
+            [mid_file] => 
+            [final_file] => 
+        )
+
+    [3] => Array
+        (
+            [id] => 32
+            [project_title] => Serial Mood Analyzer
+            [tech_stack] => AI, ML
+            [supervisor] => Dr. Ali Ahmed
+            [advisor] => Dr. Rehan Hafiz
+            [co_advisor] => Mr. Usama Bin Shakeel
+            [defense_doc] => Completed
+            [mid_doc] => Completed
+            [final_doc] => In Process
+            [year] => 2025
+            [bs_program] => Computer Engineering
+            [project_type] => Software
+            [created_at] => 2025-06-15 08:33:11
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => uploads/684e3ef75838d_Aiza Shaukat-agentic.pdf
+            [mid_file] => 
+            [final_file] => 
+        )
+
+)
+
+[2025-06-16 03:15:13] Answer LLM Response:
+Array
+(
+    [id] => chatcmpl-BiubIzzyI10r3E29RIttA3lGW2cTt
+    [object] => chat.completion
+    [created] => 1750043704
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => **Groups of 2025 in the Computer Engineering Program**
+
+**Software Type Projects:**
+
+1. **Project Title:** Online Voting System  
+   **Tech Stack:** PHP, MySQL  
+   **Supervisor:** Mr. Tariq Jameel  
+   **Advisor:** Dr. Rehan Hafiz  
+   **Co-Advisor:** Dr. Ali Ahmad  
+   **Defense Document:** In Process  
+   **Mid Document:** In Process  
+   **Final Document:** In Process  
+   **Year:** 2025  
+
+2. **Project Title:** Banking Management System  
+   **Tech Stack:** React Native, Java Script, AI/ML  
+   **Supervisor:** Asif Ali  
+   **Advisor:** Dr. Rehan Hafiz  
+   **Co-Advisor:** Dr. Ali Ahmad  
+   **Defense Document:** Completed  
+   **Mid Document:** Completed  
+   **Final Document:** Completed  
+   **Year:** 2025  
+
+3. **Project Title:** Serial Mood Analyzer  
+   **Tech Stack:** AI, ML  
+   **Supervisor:** Dr. Ali Ahmed  
+   **Advisor:** Dr. Rehan Hafiz  
+   **Co-Advisor:** Mr. Usama Bin Shakeel  
+   **Defense Document:** Completed  
+   **Mid Document:** Completed  
+   **Final Document:** In Process  
+   **Year:** 2025  
+   **Proposal File:** uploads/684e3ef75838d_Aiza Shaukat-agentic.pdf  
+
+**Hardware Type Projects:**
+
+1. **Project Title:** Online Voting System  
+   **Tech Stack:** PHP, MySQL  
+   **Supervisor:** Mr. Tariq Jameel  
+   **Advisor:** Dr. Rehan Hafiz  
+   **Co-Advisor:** Dr. Ali Ahmad  
+   **Defense Document:** In Process  
+   **Mid Document:** In Process  
+   **Final Document:** In Process  
+   **Year:** 2025  
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 830
+            [completion_tokens] => 386
+            [total_tokens] => 1216
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 03:15:15] Chart LLM Response:
+Array
+(
+    [id] => chatcmpl-BiubSzKI6jrLyl89PBY1Z1idQnlS5
+    [object] => chat.completion
+    [created] => 1750043714
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => {
+  "type": "bar",
+  "labels": ["Software", "Hardware"],
+  "datasets": [
+    { "label": "Project Count", "data": [3, 1] }
+  ]
+}
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 643
+            [completion_tokens] => 45
+            [total_tokens] => 688
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 03:15:15] Parsed Chart JSON:
+Array
+(
+    [type] => bar
+    [labels] => Array
+        (
+            [0] => Software
+            [1] => Hardware
+        )
+
+    [datasets] => Array
+        (
+            [0] => Array
+                (
+                    [label] => Project Count
+                    [data] => Array
+                        (
+                            [0] => 3
+                            [1] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+[2025-06-16 03:15:15] Final Output:
+Array
+(
+    [query] => SELECT * FROM `groups` WHERE year = 2025 AND bs_program = 'Computer Engineering' AND (project_type = 'Software' OR project_type = 'Hardware');
+    [answer] => **Groups of 2025 in the Computer Engineering Program**
+
+**Software Type Projects:**
+
+1. **Project Title:** Online Voting System  
+   **Tech Stack:** PHP, MySQL  
+   **Supervisor:** Mr. Tariq Jameel  
+   **Advisor:** Dr. Rehan Hafiz  
+   **Co-Advisor:** Dr. Ali Ahmad  
+   **Defense Document:** In Process  
+   **Mid Document:** In Process  
+   **Final Document:** In Process  
+   **Year:** 2025  
+
+2. **Project Title:** Banking Management System  
+   **Tech Stack:** React Native, Java Script, AI/ML  
+   **Supervisor:** Asif Ali  
+   **Advisor:** Dr. Rehan Hafiz  
+   **Co-Advisor:** Dr. Ali Ahmad  
+   **Defense Document:** Completed  
+   **Mid Document:** Completed  
+   **Final Document:** Completed  
+   **Year:** 2025  
+
+3. **Project Title:** Serial Mood Analyzer  
+   **Tech Stack:** AI, ML  
+   **Supervisor:** Dr. Ali Ahmed  
+   **Advisor:** Dr. Rehan Hafiz  
+   **Co-Advisor:** Mr. Usama Bin Shakeel  
+   **Defense Document:** Completed  
+   **Mid Document:** Completed  
+   **Final Document:** In Process  
+   **Year:** 2025  
+   **Proposal File:** uploads/684e3ef75838d_Aiza Shaukat-agentic.pdf  
+
+**Hardware Type Projects:**
+
+1. **Project Title:** Online Voting System  
+   **Tech Stack:** PHP, MySQL  
+   **Supervisor:** Mr. Tariq Jameel  
+   **Advisor:** Dr. Rehan Hafiz  
+   **Co-Advisor:** Dr. Ali Ahmad  
+   **Defense Document:** In Process  
+   **Mid Document:** In Process  
+   **Final Document:** In Process  
+   **Year:** 2025
+    [chartData] => Array
+        (
+            [type] => bar
+            [labels] => Array
+                (
+                    [0] => Software
+                    [1] => Hardware
+                )
+
+            [datasets] => Array
+                (
+                    [0] => Array
+                        (
+                            [label] => Project Count
+                            [data] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [rawResults] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 27
+                    [project_title] => Online Voting System
+                    [tech_stack] => PHP, MySQL
+                    [supervisor] => Mr. Tariq Jameel
+                    [advisor] => Dr. Rehan Hafiz
+                    [co_advisor] => Dr. Ali Ahmad
+                    [defense_doc] => In Process
+                    [mid_doc] => In Process
+                    [final_doc] => In Process
+                    [year] => 2025
+                    [bs_program] => Computer Engineering
+                    [project_type] => Software
+                    [created_at] => 2025-06-09 15:43:33
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => 
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+            [1] => Array
+                (
+                    [id] => 30
+                    [project_title] => Banking Management System
+                    [tech_stack] => React Native, Java Script, AI/ML
+                    [supervisor] => Asif ali
+                    [advisor] => Dr. Rehan Hafiz
+                    [co_advisor] => Dr. Ali Ahmad
+                    [defense_doc] => Completed
+                    [mid_doc] => Completed
+                    [final_doc] => Completed
+                    [year] => 2025
+                    [bs_program] => Computer Engineering
+                    [project_type] => Software
+                    [created_at] => 2025-06-09 17:37:09
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => 
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+            [2] => Array
+                (
+                    [id] => 31
+                    [project_title] => Online Voting System
+                    [tech_stack] => PHP, MySQL
+                    [supervisor] => Mr. Tariq Jameel
+                    [advisor] => Dr. Rehan Hafiz
+                    [co_advisor] => Dr. Ali Ahmad
+                    [defense_doc] => In Process
+                    [mid_doc] => In Process
+                    [final_doc] => In Process
+                    [year] => 2025
+                    [bs_program] => Computer Engineering
+                    [project_type] => Hardware
+                    [created_at] => 2025-06-12 22:04:33
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => 
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+            [3] => Array
+                (
+                    [id] => 32
+                    [project_title] => Serial Mood Analyzer
+                    [tech_stack] => AI, ML
+                    [supervisor] => Dr. Ali Ahmed
+                    [advisor] => Dr. Rehan Hafiz
+                    [co_advisor] => Mr. Usama Bin Shakeel
+                    [defense_doc] => Completed
+                    [mid_doc] => Completed
+                    [final_doc] => In Process
+                    [year] => 2025
+                    [bs_program] => Computer Engineering
+                    [project_type] => Software
+                    [created_at] => 2025-06-15 08:33:11
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => uploads/684e3ef75838d_Aiza Shaukat-agentic.pdf
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+        )
+
+)
+
+[2025-06-16 03:20:11] User Question:
+Show me all the groups of 2025 of bs of computer engineering program which are software type and hardware type
+[2025-06-16 03:20:12] SQL LLM Response:
+Array
+(
+    [id] => chatcmpl-BiugGpSXLvn5dptG5EctaT3ETUodg
+    [object] => chat.completion
+    [created] => 1750044012
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => SELECT * FROM groups WHERE year = 2025 AND bs_program = 'Computer Engineering' AND (project_type = 'Software' OR project_type = 'Hardware');
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 895
+            [completion_tokens] => 33
+            [total_tokens] => 928
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 03:20:12] Generated SQL:
+SELECT * FROM `groups` WHERE year = 2025 AND bs_program = 'Computer Engineering' AND (project_type = 'Software' OR project_type = 'Hardware');
+[2025-06-16 03:20:12] SQL Query Results:
+Array
+(
+    [0] => Array
+        (
+            [id] => 27
+            [project_title] => Online Voting System
+            [tech_stack] => PHP, MySQL
+            [supervisor] => Mr. Tariq Jameel
+            [advisor] => Dr. Rehan Hafiz
+            [co_advisor] => Dr. Ali Ahmad
+            [defense_doc] => In Process
+            [mid_doc] => In Process
+            [final_doc] => In Process
+            [year] => 2025
+            [bs_program] => Computer Engineering
+            [project_type] => Software
+            [created_at] => 2025-06-09 15:43:33
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => 
+            [mid_file] => 
+            [final_file] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 30
+            [project_title] => Banking Management System
+            [tech_stack] => React Native, Java Script, AI/ML
+            [supervisor] => Asif ali
+            [advisor] => Dr. Rehan Hafiz
+            [co_advisor] => Dr. Ali Ahmad
+            [defense_doc] => Completed
+            [mid_doc] => Completed
+            [final_doc] => Completed
+            [year] => 2025
+            [bs_program] => Computer Engineering
+            [project_type] => Software
+            [created_at] => 2025-06-09 17:37:09
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => 
+            [mid_file] => 
+            [final_file] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 31
+            [project_title] => Online Voting System
+            [tech_stack] => PHP, MySQL
+            [supervisor] => Mr. Tariq Jameel
+            [advisor] => Dr. Rehan Hafiz
+            [co_advisor] => Dr. Ali Ahmad
+            [defense_doc] => In Process
+            [mid_doc] => In Process
+            [final_doc] => In Process
+            [year] => 2025
+            [bs_program] => Computer Engineering
+            [project_type] => Hardware
+            [created_at] => 2025-06-12 22:04:33
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => 
+            [mid_file] => 
+            [final_file] => 
+        )
+
+    [3] => Array
+        (
+            [id] => 32
+            [project_title] => Serial Mood Analyzer
+            [tech_stack] => AI, ML
+            [supervisor] => Dr. Ali Ahmed
+            [advisor] => Dr. Rehan Hafiz
+            [co_advisor] => Mr. Usama Bin Shakeel
+            [defense_doc] => Completed
+            [mid_doc] => Completed
+            [final_doc] => In Process
+            [year] => 2025
+            [bs_program] => Computer Engineering
+            [project_type] => Software
+            [created_at] => 2025-06-15 08:33:11
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => uploads/684e3ef75838d_Aiza Shaukat-agentic.pdf
+            [mid_file] => 
+            [final_file] => 
+        )
+
+)
+
+[2025-06-16 03:20:19] Answer LLM Response:
+Array
+(
+    [id] => chatcmpl-BiugHsmGTXH1esUasPX2V2bzAyEhx
+    [object] => chat.completion
+    [created] => 1750044013
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => **Groups of 2025 for the BS of Computer Engineering Program**
+
+**Software Type Projects:**
+
+1. **Project Title:** Online Voting System  
+   **Tech Stack:** PHP, MySQL  
+   **Supervisor:** Mr. Tariq Jameel  
+   **Advisor:** Dr. Rehan Hafiz  
+   **Co-Advisor:** Dr. Ali Ahmad  
+   **Defense Document:** In Process  
+   **Mid Document:** In Process  
+   **Final Document:** In Process  
+
+2. **Project Title:** Banking Management System  
+   **Tech Stack:** React Native, Java Script, AI/ML  
+   **Supervisor:** Asif Ali  
+   **Advisor:** Dr. Rehan Hafiz  
+   **Co-Advisor:** Dr. Ali Ahmad  
+   **Defense Document:** Completed  
+   **Mid Document:** Completed  
+   **Final Document:** Completed  
+
+3. **Project Title:** Serial Mood Analyzer  
+   **Tech Stack:** AI, ML  
+   **Supervisor:** Dr. Ali Ahmed  
+   **Advisor:** Dr. Rehan Hafiz  
+   **Co-Advisor:** Mr. Usama Bin Shakeel  
+   **Defense Document:** Completed  
+   **Mid Document:** Completed  
+   **Final Document:** In Process  
+   **Final Document Link:** uploads/684e3ef75838d_Aiza Shaukat-agentic.pdf  
+
+**Hardware Type Projects:**
+
+1. **Project Title:** Online Voting System  
+   **Tech Stack:** PHP, MySQL  
+   **Supervisor:** Mr. Tariq Jameel  
+   **Advisor:** Dr. Rehan Hafiz  
+   **Co-Advisor:** Dr. Ali Ahmad  
+   **Defense Document:** In Process  
+   **Mid Document:** In Process  
+   **Final Document:** In Process  
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 829
+            [completion_tokens] => 357
+            [total_tokens] => 1186
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 03:20:21] Chart LLM Response:
+Array
+(
+    [id] => chatcmpl-BiugONcSSaE2L0HtcqiJ7WpRqWte2
+    [object] => chat.completion
+    [created] => 1750044020
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => {
+  "type": "bar",
+  "labels": ["Software", "Hardware"],
+  "datasets": [
+    { "label": "Projects Count", "data": [3, 1] }
+  ]
+}
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 642
+            [completion_tokens] => 45
+            [total_tokens] => 687
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 03:20:21] Parsed Chart JSON:
+Array
+(
+    [type] => bar
+    [labels] => Array
+        (
+            [0] => Software
+            [1] => Hardware
+        )
+
+    [datasets] => Array
+        (
+            [0] => Array
+                (
+                    [label] => Projects Count
+                    [data] => Array
+                        (
+                            [0] => 3
+                            [1] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+[2025-06-16 03:20:21] Final Output:
+Array
+(
+    [query] => SELECT * FROM `groups` WHERE year = 2025 AND bs_program = 'Computer Engineering' AND (project_type = 'Software' OR project_type = 'Hardware');
+    [answer] => **Groups of 2025 for the BS of Computer Engineering Program**
+
+**Software Type Projects:**
+
+1. **Project Title:** Online Voting System  
+   **Tech Stack:** PHP, MySQL  
+   **Supervisor:** Mr. Tariq Jameel  
+   **Advisor:** Dr. Rehan Hafiz  
+   **Co-Advisor:** Dr. Ali Ahmad  
+   **Defense Document:** In Process  
+   **Mid Document:** In Process  
+   **Final Document:** In Process  
+
+2. **Project Title:** Banking Management System  
+   **Tech Stack:** React Native, Java Script, AI/ML  
+   **Supervisor:** Asif Ali  
+   **Advisor:** Dr. Rehan Hafiz  
+   **Co-Advisor:** Dr. Ali Ahmad  
+   **Defense Document:** Completed  
+   **Mid Document:** Completed  
+   **Final Document:** Completed  
+
+3. **Project Title:** Serial Mood Analyzer  
+   **Tech Stack:** AI, ML  
+   **Supervisor:** Dr. Ali Ahmed  
+   **Advisor:** Dr. Rehan Hafiz  
+   **Co-Advisor:** Mr. Usama Bin Shakeel  
+   **Defense Document:** Completed  
+   **Mid Document:** Completed  
+   **Final Document:** In Process  
+   **Final Document Link:** uploads/684e3ef75838d_Aiza Shaukat-agentic.pdf  
+
+**Hardware Type Projects:**
+
+1. **Project Title:** Online Voting System  
+   **Tech Stack:** PHP, MySQL  
+   **Supervisor:** Mr. Tariq Jameel  
+   **Advisor:** Dr. Rehan Hafiz  
+   **Co-Advisor:** Dr. Ali Ahmad  
+   **Defense Document:** In Process  
+   **Mid Document:** In Process  
+   **Final Document:** In Process
+    [chartData] => Array
+        (
+            [type] => bar
+            [labels] => Array
+                (
+                    [0] => Software
+                    [1] => Hardware
+                )
+
+            [datasets] => Array
+                (
+                    [0] => Array
+                        (
+                            [label] => Projects Count
+                            [data] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [rawResults] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 27
+                    [project_title] => Online Voting System
+                    [tech_stack] => PHP, MySQL
+                    [supervisor] => Mr. Tariq Jameel
+                    [advisor] => Dr. Rehan Hafiz
+                    [co_advisor] => Dr. Ali Ahmad
+                    [defense_doc] => In Process
+                    [mid_doc] => In Process
+                    [final_doc] => In Process
+                    [year] => 2025
+                    [bs_program] => Computer Engineering
+                    [project_type] => Software
+                    [created_at] => 2025-06-09 15:43:33
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => 
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+            [1] => Array
+                (
+                    [id] => 30
+                    [project_title] => Banking Management System
+                    [tech_stack] => React Native, Java Script, AI/ML
+                    [supervisor] => Asif ali
+                    [advisor] => Dr. Rehan Hafiz
+                    [co_advisor] => Dr. Ali Ahmad
+                    [defense_doc] => Completed
+                    [mid_doc] => Completed
+                    [final_doc] => Completed
+                    [year] => 2025
+                    [bs_program] => Computer Engineering
+                    [project_type] => Software
+                    [created_at] => 2025-06-09 17:37:09
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => 
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+            [2] => Array
+                (
+                    [id] => 31
+                    [project_title] => Online Voting System
+                    [tech_stack] => PHP, MySQL
+                    [supervisor] => Mr. Tariq Jameel
+                    [advisor] => Dr. Rehan Hafiz
+                    [co_advisor] => Dr. Ali Ahmad
+                    [defense_doc] => In Process
+                    [mid_doc] => In Process
+                    [final_doc] => In Process
+                    [year] => 2025
+                    [bs_program] => Computer Engineering
+                    [project_type] => Hardware
+                    [created_at] => 2025-06-12 22:04:33
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => 
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+            [3] => Array
+                (
+                    [id] => 32
+                    [project_title] => Serial Mood Analyzer
+                    [tech_stack] => AI, ML
+                    [supervisor] => Dr. Ali Ahmed
+                    [advisor] => Dr. Rehan Hafiz
+                    [co_advisor] => Mr. Usama Bin Shakeel
+                    [defense_doc] => Completed
+                    [mid_doc] => Completed
+                    [final_doc] => In Process
+                    [year] => 2025
+                    [bs_program] => Computer Engineering
+                    [project_type] => Software
+                    [created_at] => 2025-06-15 08:33:11
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => uploads/684e3ef75838d_Aiza Shaukat-agentic.pdf
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+        )
+
+)
+
+[2025-06-16 13:04:05] User Question:
+show me all the bs groups of computer engineering program
+[2025-06-16 13:04:07] SQL LLM Response:
+Array
+(
+    [id] => chatcmpl-Bj3nL7YKQpBC8Qq6hV2S68CDStxtu
+    [object] => chat.completion
+    [created] => 1750079047
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => SELECT * FROM groups WHERE bs_program = 'Computer Engineering';
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 883
+            [completion_tokens] => 12
+            [total_tokens] => 895
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 13:04:07] Generated SQL:
+SELECT * FROM `groups` WHERE bs_program = 'Computer Engineering';
+[2025-06-16 13:04:07] SQL Query Results:
+Array
+(
+    [0] => Array
+        (
+            [id] => 22
+            [project_title] => AI Bot
+            [tech_stack] => React Native, Java Script, AI/ML
+            [supervisor] => Asif ali
+            [advisor] => hb
+            [co_advisor] => qwewq
+            [defense_doc] => In Process
+            [mid_doc] => Incomplete
+            [final_doc] => Incomplete
+            [year] => 2023
+            [bs_program] => Computer Engineering
+            [project_type] => Software
+            [created_at] => 2025-06-08 16:15:52
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => 
+            [mid_file] => 
+            [final_file] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 23
+            [project_title] => Unity
+            [tech_stack] => joj
+            [supervisor] => joi
+            [advisor] => Dr. Rehan Hafiz
+            [co_advisor] => qwewq
+            [defense_doc] => Completed
+            [mid_doc] => Completed
+            [final_doc] => In Process
+            [year] => 2023
+            [bs_program] => Computer Engineering
+            [project_type] => Software
+            [created_at] => 2025-06-08 23:24:37
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => 
+            [mid_file] => 
+            [final_file] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 27
+            [project_title] => Online Voting System
+            [tech_stack] => PHP, MySQL
+            [supervisor] => Mr. Tariq Jameel
+            [advisor] => Dr. Rehan Hafiz
+            [co_advisor] => Dr. Ali Ahmad
+            [defense_doc] => In Process
+            [mid_doc] => In Process
+            [final_doc] => In Process
+            [year] => 2025
+            [bs_program] => Computer Engineering
+            [project_type] => Software
+            [created_at] => 2025-06-09 15:43:33
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => 
+            [mid_file] => 
+            [final_file] => 
+        )
+
+    [3] => Array
+        (
+            [id] => 30
+            [project_title] => Banking Management System
+            [tech_stack] => React Native, Java Script, AI/ML
+            [supervisor] => Asif ali
+            [advisor] => Dr. Rehan Hafiz
+            [co_advisor] => Dr. Ali Ahmad
+            [defense_doc] => Completed
+            [mid_doc] => Completed
+            [final_doc] => Completed
+            [year] => 2025
+            [bs_program] => Computer Engineering
+            [project_type] => Software
+            [created_at] => 2025-06-09 17:37:09
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => 
+            [mid_file] => 
+            [final_file] => 
+        )
+
+    [4] => Array
+        (
+            [id] => 31
+            [project_title] => Online Voting System
+            [tech_stack] => PHP, MySQL
+            [supervisor] => Mr. Tariq Jameel
+            [advisor] => Dr. Rehan Hafiz
+            [co_advisor] => Dr. Ali Ahmad
+            [defense_doc] => In Process
+            [mid_doc] => In Process
+            [final_doc] => In Process
+            [year] => 2025
+            [bs_program] => Computer Engineering
+            [project_type] => Hardware
+            [created_at] => 2025-06-12 22:04:33
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => 
+            [mid_file] => 
+            [final_file] => 
+        )
+
+    [5] => Array
+        (
+            [id] => 32
+            [project_title] => Serial Mood Analyzer
+            [tech_stack] => AI, ML
+            [supervisor] => Dr. Ali Ahmed
+            [advisor] => Dr. Rehan Hafiz
+            [co_advisor] => Mr. Usama Bin Shakeel
+            [defense_doc] => Completed
+            [mid_doc] => Completed
+            [final_doc] => In Process
+            [year] => 2025
+            [bs_program] => Computer Engineering
+            [project_type] => Software
+            [created_at] => 2025-06-15 08:33:11
+            [proposal_remarks] => 
+            [mid_remarks] => 
+            [final_remarks] => 
+            [proposal_file] => uploads/684e3ef75838d_Aiza Shaukat-agentic.pdf
+            [mid_file] => 
+            [final_file] => 
+        )
+
+)
+
+[2025-06-16 13:04:20] Answer LLM Response:
+Array
+(
+    [id] => chatcmpl-Bj3nMeSCv2Kbhf8drmuGmijFr9mWc
+    [object] => chat.completion
+    [created] => 1750079048
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => ID: 22  
+Project Title: AI Bot  
+Tech Stack: React Native, Java Script, AI/ML  
+Supervisor: Asif ali  
+Advisor: hb  
+Co-Advisor: qwewq  
+Defense Document: In Process  
+Mid Document: Incomplete  
+Final Document: Incomplete  
+Year: 2023  
+BS Program: Computer Engineering  
+Project Type: Software  
+Created At: 2025-06-08 16:15:52  
+
+ID: 23  
+Project Title: Unity  
+Tech Stack: joj  
+Supervisor: joi  
+Advisor: Dr. Rehan Hafiz  
+Co-Advisor: qwewq  
+Defense Document: Completed  
+Mid Document: Completed  
+Final Document: In Process  
+Year: 2023  
+BS Program: Computer Engineering  
+Project Type: Software  
+Created At: 2025-06-08 23:24:37  
+
+ID: 27  
+Project Title: Online Voting System  
+Tech Stack: PHP, MySQL  
+Supervisor: Mr. Tariq Jameel  
+Advisor: Dr. Rehan Hafiz  
+Co-Advisor: Dr. Ali Ahmad  
+Defense Document: In Process  
+Mid Document: In Process  
+Final Document: In Process  
+Year: 2025  
+BS Program: Computer Engineering  
+Project Type: Software  
+Created At: 2025-06-09 15:43:33  
+
+ID: 30  
+Project Title: Banking Management System  
+Tech Stack: React Native, Java Script, AI/ML  
+Supervisor: Asif ali  
+Advisor: Dr. Rehan Hafiz  
+Co-Advisor: Dr. Ali Ahmad  
+Defense Document: Completed  
+Mid Document: Completed  
+Final Document: Completed  
+Year: 2025  
+BS Program: Computer Engineering  
+Project Type: Software  
+Created At: 2025-06-09 17:37:09  
+
+ID: 31  
+Project Title: Online Voting System  
+Tech Stack: PHP, MySQL  
+Supervisor: Mr. Tariq Jameel  
+Advisor: Dr. Rehan Hafiz  
+Co-Advisor: Dr. Ali Ahmad  
+Defense Document: In Process  
+Mid Document: In Process  
+Final Document: In Process  
+Year: 2025  
+BS Program: Computer Engineering  
+Project Type: Hardware  
+Created At: 2025-06-12 22:04:33  
+
+ID: 32  
+Project Title: Serial Mood Analyzer  
+Tech Stack: AI, ML  
+Supervisor: Dr. Ali Ahmed  
+Advisor: Dr. Rehan Hafiz  
+Co-Advisor: Mr. Usama Bin Shakeel  
+Defense Document: Completed  
+Mid Document: Completed  
+Final Document: In Process  
+Year: 2025  
+BS Program: Computer Engineering  
+Project Type: Software  
+Created At: 2025-06-15 08:33:11  
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 1029
+            [completion_tokens] => 577
+            [total_tokens] => 1606
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 13:04:22] Chart LLM Response:
+Array
+(
+    [id] => chatcmpl-Bj3nZV9J87quEtdLHtCnOTJlC6veR
+    [object] => chat.completion
+    [created] => 1750079061
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => {
+  "type": "bar",
+  "labels": ["AI Bot", "Unity", "Online Voting System", "Banking Management System", "Online Voting System", "Serial Mood Analyzer"],
+  "datasets": [
+    { "label": "Project Count", "data": [1, 1, 2, 1, 1, 1] }
+  ]
+}
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 863
+            [completion_tokens] => 79
+            [total_tokens] => 942
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 13:04:22] Parsed Chart JSON:
+Array
+(
+    [type] => bar
+    [labels] => Array
+        (
+            [0] => AI Bot
+            [1] => Unity
+            [2] => Online Voting System
+            [3] => Banking Management System
+            [4] => Online Voting System
+            [5] => Serial Mood Analyzer
+        )
+
+    [datasets] => Array
+        (
+            [0] => Array
+                (
+                    [label] => Project Count
+                    [data] => Array
+                        (
+                            [0] => 1
+                            [1] => 1
+                            [2] => 2
+                            [3] => 1
+                            [4] => 1
+                            [5] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+[2025-06-16 13:04:22] Final Output:
+Array
+(
+    [query] => SELECT * FROM `groups` WHERE bs_program = 'Computer Engineering';
+    [answer] => ID: 22  
+Project Title: AI Bot  
+Tech Stack: React Native, Java Script, AI/ML  
+Supervisor: Asif ali  
+Advisor: hb  
+Co-Advisor: qwewq  
+Defense Document: In Process  
+Mid Document: Incomplete  
+Final Document: Incomplete  
+Year: 2023  
+BS Program: Computer Engineering  
+Project Type: Software  
+Created At: 2025-06-08 16:15:52  
+
+ID: 23  
+Project Title: Unity  
+Tech Stack: joj  
+Supervisor: joi  
+Advisor: Dr. Rehan Hafiz  
+Co-Advisor: qwewq  
+Defense Document: Completed  
+Mid Document: Completed  
+Final Document: In Process  
+Year: 2023  
+BS Program: Computer Engineering  
+Project Type: Software  
+Created At: 2025-06-08 23:24:37  
+
+ID: 27  
+Project Title: Online Voting System  
+Tech Stack: PHP, MySQL  
+Supervisor: Mr. Tariq Jameel  
+Advisor: Dr. Rehan Hafiz  
+Co-Advisor: Dr. Ali Ahmad  
+Defense Document: In Process  
+Mid Document: In Process  
+Final Document: In Process  
+Year: 2025  
+BS Program: Computer Engineering  
+Project Type: Software  
+Created At: 2025-06-09 15:43:33  
+
+ID: 30  
+Project Title: Banking Management System  
+Tech Stack: React Native, Java Script, AI/ML  
+Supervisor: Asif ali  
+Advisor: Dr. Rehan Hafiz  
+Co-Advisor: Dr. Ali Ahmad  
+Defense Document: Completed  
+Mid Document: Completed  
+Final Document: Completed  
+Year: 2025  
+BS Program: Computer Engineering  
+Project Type: Software  
+Created At: 2025-06-09 17:37:09  
+
+ID: 31  
+Project Title: Online Voting System  
+Tech Stack: PHP, MySQL  
+Supervisor: Mr. Tariq Jameel  
+Advisor: Dr. Rehan Hafiz  
+Co-Advisor: Dr. Ali Ahmad  
+Defense Document: In Process  
+Mid Document: In Process  
+Final Document: In Process  
+Year: 2025  
+BS Program: Computer Engineering  
+Project Type: Hardware  
+Created At: 2025-06-12 22:04:33  
+
+ID: 32  
+Project Title: Serial Mood Analyzer  
+Tech Stack: AI, ML  
+Supervisor: Dr. Ali Ahmed  
+Advisor: Dr. Rehan Hafiz  
+Co-Advisor: Mr. Usama Bin Shakeel  
+Defense Document: Completed  
+Mid Document: Completed  
+Final Document: In Process  
+Year: 2025  
+BS Program: Computer Engineering  
+Project Type: Software  
+Created At: 2025-06-15 08:33:11
+    [chartData] => Array
+        (
+            [type] => bar
+            [labels] => Array
+                (
+                    [0] => AI Bot
+                    [1] => Unity
+                    [2] => Online Voting System
+                    [3] => Banking Management System
+                    [4] => Online Voting System
+                    [5] => Serial Mood Analyzer
+                )
+
+            [datasets] => Array
+                (
+                    [0] => Array
+                        (
+                            [label] => Project Count
+                            [data] => Array
+                                (
+                                    [0] => 1
+                                    [1] => 1
+                                    [2] => 2
+                                    [3] => 1
+                                    [4] => 1
+                                    [5] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [rawResults] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 22
+                    [project_title] => AI Bot
+                    [tech_stack] => React Native, Java Script, AI/ML
+                    [supervisor] => Asif ali
+                    [advisor] => hb
+                    [co_advisor] => qwewq
+                    [defense_doc] => In Process
+                    [mid_doc] => Incomplete
+                    [final_doc] => Incomplete
+                    [year] => 2023
+                    [bs_program] => Computer Engineering
+                    [project_type] => Software
+                    [created_at] => 2025-06-08 16:15:52
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => 
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+            [1] => Array
+                (
+                    [id] => 23
+                    [project_title] => Unity
+                    [tech_stack] => joj
+                    [supervisor] => joi
+                    [advisor] => Dr. Rehan Hafiz
+                    [co_advisor] => qwewq
+                    [defense_doc] => Completed
+                    [mid_doc] => Completed
+                    [final_doc] => In Process
+                    [year] => 2023
+                    [bs_program] => Computer Engineering
+                    [project_type] => Software
+                    [created_at] => 2025-06-08 23:24:37
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => 
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+            [2] => Array
+                (
+                    [id] => 27
+                    [project_title] => Online Voting System
+                    [tech_stack] => PHP, MySQL
+                    [supervisor] => Mr. Tariq Jameel
+                    [advisor] => Dr. Rehan Hafiz
+                    [co_advisor] => Dr. Ali Ahmad
+                    [defense_doc] => In Process
+                    [mid_doc] => In Process
+                    [final_doc] => In Process
+                    [year] => 2025
+                    [bs_program] => Computer Engineering
+                    [project_type] => Software
+                    [created_at] => 2025-06-09 15:43:33
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => 
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+            [3] => Array
+                (
+                    [id] => 30
+                    [project_title] => Banking Management System
+                    [tech_stack] => React Native, Java Script, AI/ML
+                    [supervisor] => Asif ali
+                    [advisor] => Dr. Rehan Hafiz
+                    [co_advisor] => Dr. Ali Ahmad
+                    [defense_doc] => Completed
+                    [mid_doc] => Completed
+                    [final_doc] => Completed
+                    [year] => 2025
+                    [bs_program] => Computer Engineering
+                    [project_type] => Software
+                    [created_at] => 2025-06-09 17:37:09
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => 
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+            [4] => Array
+                (
+                    [id] => 31
+                    [project_title] => Online Voting System
+                    [tech_stack] => PHP, MySQL
+                    [supervisor] => Mr. Tariq Jameel
+                    [advisor] => Dr. Rehan Hafiz
+                    [co_advisor] => Dr. Ali Ahmad
+                    [defense_doc] => In Process
+                    [mid_doc] => In Process
+                    [final_doc] => In Process
+                    [year] => 2025
+                    [bs_program] => Computer Engineering
+                    [project_type] => Hardware
+                    [created_at] => 2025-06-12 22:04:33
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => 
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+            [5] => Array
+                (
+                    [id] => 32
+                    [project_title] => Serial Mood Analyzer
+                    [tech_stack] => AI, ML
+                    [supervisor] => Dr. Ali Ahmed
+                    [advisor] => Dr. Rehan Hafiz
+                    [co_advisor] => Mr. Usama Bin Shakeel
+                    [defense_doc] => Completed
+                    [mid_doc] => Completed
+                    [final_doc] => In Process
+                    [year] => 2025
+                    [bs_program] => Computer Engineering
+                    [project_type] => Software
+                    [created_at] => 2025-06-15 08:33:11
+                    [proposal_remarks] => 
+                    [mid_remarks] => 
+                    [final_remarks] => 
+                    [proposal_file] => uploads/684e3ef75838d_Aiza Shaukat-agentic.pdf
+                    [mid_file] => 
+                    [final_file] => 
+                )
+
+        )
+
+)
+
+[2025-06-16 13:05:09] User Question:
+tell me the number of  bs groups of computer engineering program
+[2025-06-16 13:05:11] SQL LLM Response:
+Array
+(
+    [id] => chatcmpl-Bj3oNTSaP35INhF6GZsSXElPfwEzv
+    [object] => chat.completion
+    [created] => 1750079111
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => SELECT COUNT(*) FROM groups WHERE bs_program = 'Computer Engineering';
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 885
+            [completion_tokens] => 13
+            [total_tokens] => 898
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 13:05:11] Generated SQL:
+SELECT COUNT(*) FROM `groups` WHERE bs_program = 'Computer Engineering';
+[2025-06-16 13:05:11] SQL Query Results:
+Array
+(
+    [0] => Array
+        (
+            [COUNT(*)] => 6
+        )
+
+)
+
+[2025-06-16 13:05:13] Answer LLM Response:
+Array
+(
+    [id] => chatcmpl-Bj3oP6akSxKbhXQO0AnkHWF1LOqYw
+    [object] => chat.completion
+    [created] => 1750079113
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => The number of BS groups in the Computer Engineering program is 6.
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 288
+            [completion_tokens] => 14
+            [total_tokens] => 302
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 13:05:16] Chart LLM Response:
+Array
+(
+    [id] => chatcmpl-Bj3oRU5xQaLhJU7qUL7TFSmnEHYJh
+    [object] => chat.completion
+    [created] => 1750079115
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => {
+  "type": "bar",
+  "labels": ["Computer Engineering Program"],
+  "datasets": [
+    { "label": "Number of BS Groups", "data": [6] }
+  ]
+}
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 121
+            [completion_tokens] => 43
+            [total_tokens] => 164
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 13:05:16] Parsed Chart JSON:
+Array
+(
+    [type] => bar
+    [labels] => Array
+        (
+            [0] => Computer Engineering Program
+        )
+
+    [datasets] => Array
+        (
+            [0] => Array
+                (
+                    [label] => Number of BS Groups
+                    [data] => Array
+                        (
+                            [0] => 6
+                        )
+
+                )
+
+        )
+
+)
+
+[2025-06-16 13:05:16] Final Output:
+Array
+(
+    [query] => SELECT COUNT(*) FROM `groups` WHERE bs_program = 'Computer Engineering';
+    [answer] => The number of BS groups in the Computer Engineering program is 6.
+    [chartData] => Array
+        (
+            [type] => bar
+            [labels] => Array
+                (
+                    [0] => Computer Engineering Program
+                )
+
+            [datasets] => Array
+                (
+                    [0] => Array
+                        (
+                            [label] => Number of BS Groups
+                            [data] => Array
+                                (
+                                    [0] => 6
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [rawResults] => Array
+        (
+            [0] => Array
+                (
+                    [COUNT(*)] => 6
+                )
+
+        )
+
+)
+
+[2025-06-16 13:07:24] User Question:
+Show me all the advisors of bs groups and list each advisor's number of projects
+[2025-06-16 13:07:25] SQL LLM Response:
+Array
+(
+    [id] => chatcmpl-Bj3qXb2aQzro8cNQ1akV0jbUcWfnx
+    [object] => chat.completion
+    [created] => 1750079245
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => SELECT advisor, COUNT(*) as total_projects FROM groups GROUP BY advisor;
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 889
+            [completion_tokens] => 14
+            [total_tokens] => 903
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 13:07:25] Generated SQL:
+SELECT advisor, COUNT(*) as total_projects FROM `groups` GROUP BY advisor;
+[2025-06-16 13:07:25] SQL Query Results:
+Array
+(
+    [0] => Array
+        (
+            [advisor] => hb
+            [total_projects] => 2
+        )
+
+    [1] => Array
+        (
+            [advisor] => Dr. Rehan Hafiz
+            [total_projects] => 5
+        )
+
+    [2] => Array
+        (
+            [advisor] => Ms. Sara Ali
+            [total_projects] => 1
+        )
+
+    [3] => Array
+        (
+            [advisor] => Mr. Nasir Mehmood
+            [total_projects] => 1
+        )
+
+    [4] => Array
+        (
+            [advisor] =>  Ms. Areeba Khan
+            [total_projects] => 1
+        )
+
+)
+
+[2025-06-16 13:07:27] Answer LLM Response:
+Array
+(
+    [id] => chatcmpl-Bj3qYAP5OVTM2RV6LFtGEK0lJKIp5
+    [object] => chat.completion
+    [created] => 1750079246
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Advisor: hb  
+Total Projects: 2  
+
+Advisor: Dr. Rehan Hafiz  
+Total Projects: 5  
+
+Advisor: Ms. Sara Ali  
+Total Projects: 1  
+
+Advisor: Mr. Nasir Mehmood  
+Total Projects: 1  
+
+Advisor: Ms. Areeba Khan  
+Total Projects: 1  
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 352
+            [completion_tokens] => 69
+            [total_tokens] => 421
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 13:07:29] Chart LLM Response:
+Array
+(
+    [id] => chatcmpl-Bj3qaA8b43vlVM0j3ixjPvBx5wb9S
+    [object] => chat.completion
+    [created] => 1750079248
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => {
+  "type": "bar",
+  "labels": ["hb", "Dr. Rehan Hafiz", "Ms. Sara Ali", "Mr. Nasir Mehmood", "Ms. Areeba Khan"],
+  "datasets": [
+    { "label": "Total Projects", "data": [2, 5, 1, 1, 1] }
+  ]
+}
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 184
+            [completion_tokens] => 82
+            [total_tokens] => 266
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 13:07:29] Parsed Chart JSON:
+Array
+(
+    [type] => bar
+    [labels] => Array
+        (
+            [0] => hb
+            [1] => Dr. Rehan Hafiz
+            [2] => Ms. Sara Ali
+            [3] => Mr. Nasir Mehmood
+            [4] => Ms. Areeba Khan
+        )
+
+    [datasets] => Array
+        (
+            [0] => Array
+                (
+                    [label] => Total Projects
+                    [data] => Array
+                        (
+                            [0] => 2
+                            [1] => 5
+                            [2] => 1
+                            [3] => 1
+                            [4] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+[2025-06-16 13:07:29] Final Output:
+Array
+(
+    [query] => SELECT advisor, COUNT(*) as total_projects FROM `groups` GROUP BY advisor;
+    [answer] => Advisor: hb  
+Total Projects: 2  
+
+Advisor: Dr. Rehan Hafiz  
+Total Projects: 5  
+
+Advisor: Ms. Sara Ali  
+Total Projects: 1  
+
+Advisor: Mr. Nasir Mehmood  
+Total Projects: 1  
+
+Advisor: Ms. Areeba Khan  
+Total Projects: 1
+    [chartData] => Array
+        (
+            [type] => bar
+            [labels] => Array
+                (
+                    [0] => hb
+                    [1] => Dr. Rehan Hafiz
+                    [2] => Ms. Sara Ali
+                    [3] => Mr. Nasir Mehmood
+                    [4] => Ms. Areeba Khan
+                )
+
+            [datasets] => Array
+                (
+                    [0] => Array
+                        (
+                            [label] => Total Projects
+                            [data] => Array
+                                (
+                                    [0] => 2
+                                    [1] => 5
+                                    [2] => 1
+                                    [3] => 1
+                                    [4] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [rawResults] => Array
+        (
+            [0] => Array
+                (
+                    [advisor] => hb
+                    [total_projects] => 2
+                )
+
+            [1] => Array
+                (
+                    [advisor] => Dr. Rehan Hafiz
+                    [total_projects] => 5
+                )
+
+            [2] => Array
+                (
+                    [advisor] => Ms. Sara Ali
+                    [total_projects] => 1
+                )
+
+            [3] => Array
+                (
+                    [advisor] => Mr. Nasir Mehmood
+                    [total_projects] => 1
+                )
+
+            [4] => Array
+                (
+                    [advisor] =>  Ms. Areeba Khan
+                    [total_projects] => 1
+                )
+
+        )
+
+)
+
+[2025-06-16 13:07:52] User Question:
+Show me all the advisors of bs groups and list each advisor's number of projects
+[2025-06-16 13:07:53] SQL LLM Response:
+Array
+(
+    [id] => chatcmpl-Bj3qzbTtMLbg5Hj6fSW5XiX3P8GYv
+    [object] => chat.completion
+    [created] => 1750079273
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => SELECT advisor, COUNT(*) as total_projects FROM groups GROUP BY advisor;
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 889
+            [completion_tokens] => 14
+            [total_tokens] => 903
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 13:07:53] Generated SQL:
+SELECT advisor, COUNT(*) as total_projects FROM `groups` GROUP BY advisor;
+[2025-06-16 13:07:53] SQL Query Results:
+Array
+(
+    [0] => Array
+        (
+            [advisor] => hb
+            [total_projects] => 2
+        )
+
+    [1] => Array
+        (
+            [advisor] => Dr. Rehan Hafiz
+            [total_projects] => 5
+        )
+
+    [2] => Array
+        (
+            [advisor] => Ms. Sara Ali
+            [total_projects] => 1
+        )
+
+    [3] => Array
+        (
+            [advisor] => Mr. Nasir Mehmood
+            [total_projects] => 1
+        )
+
+    [4] => Array
+        (
+            [advisor] =>  Ms. Areeba Khan
+            [total_projects] => 1
+        )
+
+)
+
+[2025-06-16 13:07:56] Answer LLM Response:
+Array
+(
+    [id] => chatcmpl-Bj3r2vJvIWT5XLa31UscJSXdwymaO
+    [object] => chat.completion
+    [created] => 1750079276
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Advisor: hb  
+Total Projects: 2  
+
+Advisor: Dr. Rehan Hafiz  
+Total Projects: 5  
+
+Advisor: Ms. Sara Ali  
+Total Projects: 1  
+
+Advisor: Mr. Nasir Mehmood  
+Total Projects: 1  
+
+Advisor: Ms. Areeba Khan  
+Total Projects: 1  
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 352
+            [completion_tokens] => 69
+            [total_tokens] => 421
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 13:07:58] Chart LLM Response:
+Array
+(
+    [id] => chatcmpl-Bj3r3ZrPzmCuYvbwGhNS6Cb6swD3O
+    [object] => chat.completion
+    [created] => 1750079277
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => {
+  "type": "bar",
+  "labels": ["hb", "Dr. Rehan Hafiz", "Ms. Sara Ali", "Mr. Nasir Mehmood", "Ms. Areeba Khan"],
+  "datasets": [
+    { "label": "Total Projects", "data": [2, 5, 1, 1, 1] }
+  ]
+}
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 184
+            [completion_tokens] => 82
+            [total_tokens] => 266
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 13:07:58] Parsed Chart JSON:
+Array
+(
+    [type] => bar
+    [labels] => Array
+        (
+            [0] => hb
+            [1] => Dr. Rehan Hafiz
+            [2] => Ms. Sara Ali
+            [3] => Mr. Nasir Mehmood
+            [4] => Ms. Areeba Khan
+        )
+
+    [datasets] => Array
+        (
+            [0] => Array
+                (
+                    [label] => Total Projects
+                    [data] => Array
+                        (
+                            [0] => 2
+                            [1] => 5
+                            [2] => 1
+                            [3] => 1
+                            [4] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+[2025-06-16 13:07:58] Final Output:
+Array
+(
+    [query] => SELECT advisor, COUNT(*) as total_projects FROM `groups` GROUP BY advisor;
+    [answer] => Advisor: hb  
+Total Projects: 2  
+
+Advisor: Dr. Rehan Hafiz  
+Total Projects: 5  
+
+Advisor: Ms. Sara Ali  
+Total Projects: 1  
+
+Advisor: Mr. Nasir Mehmood  
+Total Projects: 1  
+
+Advisor: Ms. Areeba Khan  
+Total Projects: 1
+    [chartData] => Array
+        (
+            [type] => bar
+            [labels] => Array
+                (
+                    [0] => hb
+                    [1] => Dr. Rehan Hafiz
+                    [2] => Ms. Sara Ali
+                    [3] => Mr. Nasir Mehmood
+                    [4] => Ms. Areeba Khan
+                )
+
+            [datasets] => Array
+                (
+                    [0] => Array
+                        (
+                            [label] => Total Projects
+                            [data] => Array
+                                (
+                                    [0] => 2
+                                    [1] => 5
+                                    [2] => 1
+                                    [3] => 1
+                                    [4] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [rawResults] => Array
+        (
+            [0] => Array
+                (
+                    [advisor] => hb
+                    [total_projects] => 2
+                )
+
+            [1] => Array
+                (
+                    [advisor] => Dr. Rehan Hafiz
+                    [total_projects] => 5
+                )
+
+            [2] => Array
+                (
+                    [advisor] => Ms. Sara Ali
+                    [total_projects] => 1
+                )
+
+            [3] => Array
+                (
+                    [advisor] => Mr. Nasir Mehmood
+                    [total_projects] => 1
+                )
+
+            [4] => Array
+                (
+                    [advisor] =>  Ms. Areeba Khan
+                    [total_projects] => 1
+                )
+
+        )
+
+)
+
+[2025-06-16 13:08:10] User Question:
+Show me all the advisors of bs groups and list each advisor's number of projects in computer engneering program
+[2025-06-16 13:08:11] SQL LLM Response:
+Array
+(
+    [id] => chatcmpl-Bj3rHfKE4sCO209Uys4IRxUpTLcgq
+    [object] => chat.completion
+    [created] => 1750079291
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => SELECT advisor, COUNT(*) as total_projects 
+FROM groups 
+WHERE bs_program = 'Computer Engineering' 
+GROUP BY advisor;
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 895
+            [completion_tokens] => 25
+            [total_tokens] => 920
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 13:08:11] Generated SQL:
+SELECT advisor, COUNT(*) as total_projects 
+FROM `groups` 
+WHERE bs_program = 'Computer Engineering' 
+GROUP BY advisor;
+[2025-06-16 13:08:11] SQL Query Results:
+Array
+(
+    [0] => Array
+        (
+            [advisor] => hb
+            [total_projects] => 1
+        )
+
+    [1] => Array
+        (
+            [advisor] => Dr. Rehan Hafiz
+            [total_projects] => 5
+        )
+
+)
+
+[2025-06-16 13:08:13] Answer LLM Response:
+Array
+(
+    [id] => chatcmpl-Bj3rISixl9HwJvJbMUOd3zfQq1BgK
+    [object] => chat.completion
+    [created] => 1750079292
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Advisor: hb  
+Total Projects: 1  
+
+Advisor: Dr. Rehan Hafiz  
+Total Projects: 5  
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 328
+            [completion_tokens] => 25
+            [total_tokens] => 353
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 13:08:14] Chart LLM Response:
+Array
+(
+    [id] => chatcmpl-Bj3rKR5vbSEm3tomNFLnfjNIX9A9Y
+    [object] => chat.completion
+    [created] => 1750079294
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => {
+  "type": "bar",
+  "labels": ["hb", "Dr. Rehan Hafiz"],
+  "datasets": [
+    { "label": "Number of Projects", "data": [1, 5] }
+  ]
+}
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 149
+            [completion_tokens] => 51
+            [total_tokens] => 200
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-16 13:08:14] Parsed Chart JSON:
+Array
+(
+    [type] => bar
+    [labels] => Array
+        (
+            [0] => hb
+            [1] => Dr. Rehan Hafiz
+        )
+
+    [datasets] => Array
+        (
+            [0] => Array
+                (
+                    [label] => Number of Projects
+                    [data] => Array
+                        (
+                            [0] => 1
+                            [1] => 5
+                        )
+
+                )
+
+        )
+
+)
+
+[2025-06-16 13:08:14] Final Output:
+Array
+(
+    [query] => SELECT advisor, COUNT(*) as total_projects 
+FROM `groups` 
+WHERE bs_program = 'Computer Engineering' 
+GROUP BY advisor;
+    [answer] => Advisor: hb  
+Total Projects: 1  
+
+Advisor: Dr. Rehan Hafiz  
+Total Projects: 5
+    [chartData] => Array
+        (
+            [type] => bar
+            [labels] => Array
+                (
+                    [0] => hb
+                    [1] => Dr. Rehan Hafiz
+                )
+
+            [datasets] => Array
+                (
+                    [0] => Array
+                        (
+                            [label] => Number of Projects
+                            [data] => Array
+                                (
+                                    [0] => 1
+                                    [1] => 5
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [rawResults] => Array
+        (
+            [0] => Array
+                (
+                    [advisor] => hb
+                    [total_projects] => 1
+                )
+
+            [1] => Array
+                (
+                    [advisor] => Dr. Rehan Hafiz
+                    [total_projects] => 5
+                )
+
+        )
+
+)
+
+[2025-06-18 17:03:13] User Question:
+Show me all the advisor's name and no.of projects they had in 2025 of bs
+[2025-06-18 17:03:15] SQL LLM Response:
+Array
+(
+    [id] => chatcmpl-BjqTr37X3xvwrck0ZgJ3RhXcp6M4n
+    [object] => chat.completion
+    [created] => 1750266195
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => SELECT advisor, COUNT(*) as total_projects FROM groups WHERE year = 2025 GROUP BY advisor;
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 892
+            [completion_tokens] => 20
+            [total_tokens] => 912
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-18 17:03:16] Generated SQL:
+SELECT advisor, COUNT(*) as total_projects FROM `groups` WHERE year = 2025 GROUP BY advisor;
+[2025-06-18 17:03:16] SQL Query Results:
+Array
+(
+    [0] => Array
+        (
+            [advisor] => Ms. Sara Ali
+            [total_projects] => 1
+        )
+
+    [1] => Array
+        (
+            [advisor] => Dr. Rehan Hafiz
+            [total_projects] => 4
+        )
+
+    [2] => Array
+        (
+            [advisor] => Mr. Nasir Mehmood
+            [total_projects] => 1
+        )
+
+    [3] => Array
+        (
+            [advisor] =>  Ms. Areeba Khan
+            [total_projects] => 1
+        )
+
+)
+
+[2025-06-18 17:03:18] Answer LLM Response:
+Array
+(
+    [id] => chatcmpl-BjqTsvezwxBuVmyTV0yL7YvkfCqVL
+    [object] => chat.completion
+    [created] => 1750266196
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Advisor: Ms. Sara Ali  
+Total Projects: 1  
+
+Advisor: Dr. Rehan Hafiz  
+Total Projects: 4  
+
+Advisor: Mr. Nasir Mehmood  
+Total Projects: 1  
+
+Advisor: Ms. Areeba Khan  
+Total Projects: 1  
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 352
+            [completion_tokens] => 59
+            [total_tokens] => 411
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-18 17:03:20] Chart LLM Response:
+Array
+(
+    [id] => chatcmpl-BjqTuCj8nFrLYaEn6CpCOYn81sHfZ
+    [object] => chat.completion
+    [created] => 1750266198
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => {
+  "type": "bar",
+  "labels": ["Ms. Sara Ali", "Dr. Rehan Hafiz", "Mr. Nasir Mehmood", "Ms. Areeba Khan"],
+  "datasets": [
+    { "label": "Total Projects", "data": [1, 4, 1, 1] }
+  ]
+}
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 178
+            [completion_tokens] => 76
+            [total_tokens] => 254
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_62a23a81ef
+)
+
+[2025-06-18 17:03:20] Parsed Chart JSON:
+Array
+(
+    [type] => bar
+    [labels] => Array
+        (
+            [0] => Ms. Sara Ali
+            [1] => Dr. Rehan Hafiz
+            [2] => Mr. Nasir Mehmood
+            [3] => Ms. Areeba Khan
+        )
+
+    [datasets] => Array
+        (
+            [0] => Array
+                (
+                    [label] => Total Projects
+                    [data] => Array
+                        (
+                            [0] => 1
+                            [1] => 4
+                            [2] => 1
+                            [3] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+[2025-06-18 17:03:20] Final Output:
+Array
+(
+    [query] => SELECT advisor, COUNT(*) as total_projects FROM `groups` WHERE year = 2025 GROUP BY advisor;
+    [answer] => Advisor: Ms. Sara Ali  
+Total Projects: 1  
+
+Advisor: Dr. Rehan Hafiz  
+Total Projects: 4  
+
+Advisor: Mr. Nasir Mehmood  
+Total Projects: 1  
+
+Advisor: Ms. Areeba Khan  
+Total Projects: 1
+    [chartData] => Array
+        (
+            [type] => bar
+            [labels] => Array
+                (
+                    [0] => Ms. Sara Ali
+                    [1] => Dr. Rehan Hafiz
+                    [2] => Mr. Nasir Mehmood
+                    [3] => Ms. Areeba Khan
+                )
+
+            [datasets] => Array
+                (
+                    [0] => Array
+                        (
+                            [label] => Total Projects
+                            [data] => Array
+                                (
+                                    [0] => 1
+                                    [1] => 4
+                                    [2] => 1
+                                    [3] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [rawResults] => Array
+        (
+            [0] => Array
+                (
+                    [advisor] => Ms. Sara Ali
+                    [total_projects] => 1
+                )
+
+            [1] => Array
+                (
+                    [advisor] => Dr. Rehan Hafiz
+                    [total_projects] => 4
+                )
+
+            [2] => Array
+                (
+                    [advisor] => Mr. Nasir Mehmood
+                    [total_projects] => 1
+                )
+
+            [3] => Array
+                (
+                    [advisor] =>  Ms. Areeba Khan
+                    [total_projects] => 1
+                )
+
+        )
+
+)
+
+[2025-06-18 17:05:34] User Question:
+Show me all the advisor's name and no.of projects they had in computer engineering program and the projects were of software type in 2025 of bs
+[2025-06-18 17:05:36] SQL LLM Response:
+Array
+(
+    [id] => chatcmpl-BjqW7WIMhSKfrw7mrYDObMJkjNuo3
+    [object] => chat.completion
+    [created] => 1750266335
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => SELECT advisor, COUNT(*) as total_projects 
+FROM groups 
+WHERE year = 2025 AND bs_program = 'Computer Engineering' AND project_type = 'Software Based' 
+GROUP BY advisor;
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 903
+            [completion_tokens] => 39
+            [total_tokens] => 942
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-18 17:05:36] Generated SQL:
+SELECT advisor, COUNT(*) as total_projects 
+FROM `groups` 
+WHERE year = 2025 AND bs_program = 'Computer Engineering' AND project_type = 'Software Based' 
+GROUP BY advisor;
+[2025-06-18 17:05:36] SQL Query Results:
+Array
+(
+)
+
+[2025-06-18 17:05:38] Answer LLM Response:
+Array
+(
+    [id] => chatcmpl-BjqW9rxYlzxAfarB7KMMWadAgNtiP
+    [object] => chat.completion
+    [created] => 1750266337
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => There are no records of advisors with projects in the Computer Engineering program that were of software type in the year 2025.
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 326
+            [completion_tokens] => 25
+            [total_tokens] => 351
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-18 17:05:39] Chart LLM Response:
+Array
+(
+    [id] => chatcmpl-BjqWAll1XJRkSsIVpKOqzzkuT1vxj
+    [object] => chat.completion
+    [created] => 1750266338
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => {
+  "type": "bar",
+  "labels": [],
+  "datasets": []
+}
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 133
+            [completion_tokens] => 19
+            [total_tokens] => 152
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-18 17:05:39] Parsed Chart JSON:
+Array
+(
+    [type] => bar
+    [labels] => Array
+        (
+        )
+
+    [datasets] => Array
+        (
+        )
+
+)
+
+[2025-06-18 17:05:39] Final Output:
+Array
+(
+    [query] => SELECT advisor, COUNT(*) as total_projects 
+FROM `groups` 
+WHERE year = 2025 AND bs_program = 'Computer Engineering' AND project_type = 'Software Based' 
+GROUP BY advisor;
+    [answer] => There are no records of advisors with projects in the Computer Engineering program that were of software type in the year 2025.
+    [chartData] => Array
+        (
+            [type] => bar
+            [labels] => Array
+                (
+                )
+
+            [datasets] => Array
+                (
+                )
+
+        )
+
+    [rawResults] => Array
+        (
+        )
+
+)
+
+[2025-06-18 17:06:17] User Question:
+Show me all the advisor's name and no.of projects and the projects were of software type they had in 2025 of bs
+[2025-06-18 17:06:18] SQL LLM Response:
+Array
+(
+    [id] => chatcmpl-BjqWnwLkLFKHUKm2pZsj8IzegbbJJ
+    [object] => chat.completion
+    [created] => 1750266377
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => SELECT advisor, COUNT(*) as total_projects 
+FROM groups 
+WHERE year = 2025 AND project_type = 'Software Based' 
+GROUP BY advisor;
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 899
+            [completion_tokens] => 31
+            [total_tokens] => 930
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-18 17:06:18] Generated SQL:
+SELECT advisor, COUNT(*) as total_projects 
+FROM `groups` 
+WHERE year = 2025 AND project_type = 'Software Based' 
+GROUP BY advisor;
+[2025-06-18 17:06:18] SQL Query Results:
+Array
+(
+)
+
+[2025-06-18 17:06:20] Answer LLM Response:
+Array
+(
+    [id] => chatcmpl-BjqWpD91mgf8taDCOo53a8e0Dptl6
+    [object] => chat.completion
+    [created] => 1750266379
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => There are no results for the query. The dataset does not contain any records of advisors with software-based projects in the year 2025.
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 314
+            [completion_tokens] => 28
+            [total_tokens] => 342
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-18 17:06:21] Chart LLM Response:
+Array
+(
+    [id] => chatcmpl-BjqWqNYXicpLB3xl2KdVquZRiMGQW
+    [object] => chat.completion
+    [created] => 1750266380
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => {
+  "type": "bar",
+  "labels": [],
+  "datasets": []
+}
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 129
+            [completion_tokens] => 19
+            [total_tokens] => 148
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-18 17:06:21] Parsed Chart JSON:
+Array
+(
+    [type] => bar
+    [labels] => Array
+        (
+        )
+
+    [datasets] => Array
+        (
+        )
+
+)
+
+[2025-06-18 17:06:21] Final Output:
+Array
+(
+    [query] => SELECT advisor, COUNT(*) as total_projects 
+FROM `groups` 
+WHERE year = 2025 AND project_type = 'Software Based' 
+GROUP BY advisor;
+    [answer] => There are no results for the query. The dataset does not contain any records of advisors with software-based projects in the year 2025.
+    [chartData] => Array
+        (
+            [type] => bar
+            [labels] => Array
+                (
+                )
+
+            [datasets] => Array
+                (
+                )
+
+        )
+
+    [rawResults] => Array
+        (
+        )
+
+)
+
+[2025-06-18 17:06:35] User Question:
+Show me all the advisor's name and no.of projects they had in 2025 of bs
+[2025-06-18 17:06:37] SQL LLM Response:
+Array
+(
+    [id] => chatcmpl-BjqX6DeluVKzIQYzSSRK8mXdvFujj
+    [object] => chat.completion
+    [created] => 1750266396
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => SELECT advisor, COUNT(*) as total_projects 
+FROM groups 
+WHERE year = 2025 
+GROUP BY advisor;
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 892
+            [completion_tokens] => 23
+            [total_tokens] => 915
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-18 17:06:37] Generated SQL:
+SELECT advisor, COUNT(*) as total_projects 
+FROM `groups` 
+WHERE year = 2025 
+GROUP BY advisor;
+[2025-06-18 17:06:37] SQL Query Results:
+Array
+(
+    [0] => Array
+        (
+            [advisor] => Ms. Sara Ali
+            [total_projects] => 1
+        )
+
+    [1] => Array
+        (
+            [advisor] => Dr. Rehan Hafiz
+            [total_projects] => 4
+        )
+
+    [2] => Array
+        (
+            [advisor] => Mr. Nasir Mehmood
+            [total_projects] => 1
+        )
+
+    [3] => Array
+        (
+            [advisor] =>  Ms. Areeba Khan
+            [total_projects] => 1
+        )
+
+)
+
+[2025-06-18 17:06:38] Answer LLM Response:
+Array
+(
+    [id] => chatcmpl-BjqX76sJWrX1ZnKWj3y1eUhspHNyo
+    [object] => chat.completion
+    [created] => 1750266397
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Advisor: Ms. Sara Ali  
+Total Projects: 1  
+
+Advisor: Dr. Rehan Hafiz  
+Total Projects: 4  
+
+Advisor: Mr. Nasir Mehmood  
+Total Projects: 1  
+
+Advisor: Ms. Areeba Khan  
+Total Projects: 1  
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 355
+            [completion_tokens] => 59
+            [total_tokens] => 414
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_34a54ae93c
+)
+
+[2025-06-18 17:06:41] Chart LLM Response:
+Array
+(
+    [id] => chatcmpl-BjqX9zBDtVolpgmVCKXopb47HJ9m5
+    [object] => chat.completion
+    [created] => 1750266399
+    [model] => gpt-4o-mini-2024-07-18
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => {
+  "type": "bar",
+  "labels": ["Ms. Sara Ali", "Dr. Rehan Hafiz", "Mr. Nasir Mehmood", "Ms. Areeba Khan"],
+  "datasets": [
+    { "label": "Total Projects", "data": [1, 4, 1, 1] }
+  ]
+}
+                            [refusal] => 
+                            [annotations] => Array
+                                (
+                                )
+
+                        )
+
+                    [logprobs] => 
+                    [finish_reason] => stop
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 178
+            [completion_tokens] => 76
+            [total_tokens] => 254
+            [prompt_tokens_details] => Array
+                (
+                    [cached_tokens] => 0
+                    [audio_tokens] => 0
+                )
+
+            [completion_tokens_details] => Array
+                (
+                    [reasoning_tokens] => 0
+                    [audio_tokens] => 0
+                    [accepted_prediction_tokens] => 0
+                    [rejected_prediction_tokens] => 0
+                )
+
+        )
+
+    [service_tier] => default
+    [system_fingerprint] => fp_62a23a81ef
+)
+
+[2025-06-18 17:06:41] Parsed Chart JSON:
+Array
+(
+    [type] => bar
+    [labels] => Array
+        (
+            [0] => Ms. Sara Ali
+            [1] => Dr. Rehan Hafiz
+            [2] => Mr. Nasir Mehmood
+            [3] => Ms. Areeba Khan
+        )
+
+    [datasets] => Array
+        (
+            [0] => Array
+                (
+                    [label] => Total Projects
+                    [data] => Array
+                        (
+                            [0] => 1
+                            [1] => 4
+                            [2] => 1
+                            [3] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+[2025-06-18 17:06:41] Final Output:
+Array
+(
+    [query] => SELECT advisor, COUNT(*) as total_projects 
+FROM `groups` 
+WHERE year = 2025 
+GROUP BY advisor;
+    [answer] => Advisor: Ms. Sara Ali  
+Total Projects: 1  
+
+Advisor: Dr. Rehan Hafiz  
+Total Projects: 4  
+
+Advisor: Mr. Nasir Mehmood  
+Total Projects: 1  
+
+Advisor: Ms. Areeba Khan  
+Total Projects: 1
+    [chartData] => Array
+        (
+            [type] => bar
+            [labels] => Array
+                (
+                    [0] => Ms. Sara Ali
+                    [1] => Dr. Rehan Hafiz
+                    [2] => Mr. Nasir Mehmood
+                    [3] => Ms. Areeba Khan
+                )
+
+            [datasets] => Array
+                (
+                    [0] => Array
+                        (
+                            [label] => Total Projects
+                            [data] => Array
+                                (
+                                    [0] => 1
+                                    [1] => 4
+                                    [2] => 1
+                                    [3] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [rawResults] => Array
+        (
+            [0] => Array
+                (
+                    [advisor] => Ms. Sara Ali
+                    [total_projects] => 1
+                )
+
+            [1] => Array
+                (
+                    [advisor] => Dr. Rehan Hafiz
+                    [total_projects] => 4
+                )
+
+            [2] => Array
+                (
+                    [advisor] => Mr. Nasir Mehmood
+                    [total_projects] => 1
+                )
+
+            [3] => Array
+                (
+                    [advisor] =>  Ms. Areeba Khan
+                    [total_projects] => 1
+                )
+
+        )
+
+)
