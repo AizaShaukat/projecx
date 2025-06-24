@@ -18,7 +18,7 @@
 
 ## 📸 Screenshots
 
-| Ask & Visualize                         | Dashboard                                     |
+| Dashboard                               | Ask & Visualize                               |
 | --------------------------------------- | --------------------------------------------- |
 | ![Ask](./frontend/src/assets/dashboard.png) | ![Dashboard](./frontend/src/assets/askAndVisualise.png) |
 
