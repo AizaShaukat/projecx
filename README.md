@@ -211,7 +211,7 @@ $this->password = ""; // Use "root" for Windows MAMP if default doesn't work
 ## Contributing
 
 ```bash
-git clone https://github.com/your-username/projecx.git
+git clone https://github.com/AizaShaukat/projecx.git
 git checkout -b feature/something
 # make changes
 # commit & push
