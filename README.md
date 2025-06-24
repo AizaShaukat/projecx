@@ -1,4 +1,4 @@
-## ProjectX – AI-Powered FYP & MS Thesis Management System
+## ProjecX – AI-Powered FYP & MS Thesis Management System
 
 ![ProjectX Banner](./frontend/public/assets/projecX.png)
 
@@ -6,7 +6,7 @@
 
 ## 📄 Abstract
 
-**ProjectX** is a full-stack academic project management platform designed to streamline and digitize the workflows of BS Final Year Projects and MS Theses in universities. It provides:
+**ProjecX** is a full-stack academic project management platform designed to streamline and digitize the workflows of BS Final Year Projects and MS Theses in universities. It provides:
 
 * Centralized group and thesis tracking
 * Document submission handling for proposal, mid, and final stages
@@ -16,7 +16,7 @@
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 | Dashboard                               | Ask & Visualize                               |
 | --------------------------------------- | --------------------------------------------- |
@@ -24,40 +24,24 @@
 
 ---
 
-## 📚 Table of Contents
+## Features
 
-* [Features](#features)
-* [Tech Stack](#tech-stack)
-* [Folder Structure](#folder-structure)
-* [Setup Guide](#setup-guide)
-* [Using the AI Query Tool](#using-the-ai-query-tool)
-* [Database Setup](#database-setup)
-* [Usage Examples](#usage-examples)
-* [Known Issues](#known-issues)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
+* Group creation with multiple students
+* Complete CRUD operations for FYP and Thesis data
+* Document upload and status tracking (Proposal, Mid, Final)
+* AI-Powered Query Handling via OpenAI API
+* Chart.js visualizations (bar, pie, line)
+* Export results as professional PDFs
+* Search and filter project data
 
 ---
 
-## ✨ Features
-
-* 👥 Group creation with multiple students
-* 📃 Complete CRUD operations for FYP and Thesis data
-* 📎 Document upload and status tracking (Proposal, Mid, Final)
-* 🧐 AI-Powered Query Handling via OpenAI API
-* 📊 Chart.js visualizations (bar, pie, line)
-* 📤 Export results as professional PDFs
-* 🔍 Search and filter project data
-
----
-
-## 🧰 Tech Stack
+## Tech Stack
 
 | Layer         | Technology             |
 | ------------- | ---------------------- |
 | Frontend      | React.js, Tailwind CSS |
-| Backend       | Node.js, Express, PHP  |
+| Backend       | PHP                    |
 | Database      | MySQL (via MAMP)       |
 | AI Engine     | OpenAI GPT (API based) |
 | Visualization | Chart.js               |
@@ -73,6 +57,8 @@ projecx/
 │   ├── query.php            # NLP to SQL
 │   ├── ms_thesis.php        # MS Thesis API
 │   └── DbConnect.php        # DB connection
+│   └── index.php            # for BS groups
+│   └── query.log            # all answers and generations get saved in this file
 ├── frontend/                # React frontend
 │   ├── src/
 │   │   ├── pages/           # Page views
