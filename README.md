@@ -72,9 +72,9 @@ projecx/
 
 ---
 
-## 🚀 Setup Guide
+## Setup Guide
 
-### 📦 Prerequisites
+### Prerequisites
 
 * Node.js v18+
 * MAMP (Apache + MySQL)
@@ -82,14 +82,14 @@ projecx/
 * MySQL via phpMyAdmin
 * OpenAI API Key
 
-### ⚙️ Installation
+### Installation
 
 ```bash
 git clone https://github.com/AizaShaukat/projecx.git
 cd projecx
 ```
 
-### 🔌 Frontend Setup
+### Frontend Setup
 
 ```bash
 cd frontend
@@ -100,9 +100,9 @@ npm start
 
 ---
 
-### 💻 Backend Setup
+### Backend Setup
 
-#### 📁 Step 1: Place the Backend Files
+#### Step 1: Place the Backend Files
 
 * Copy the `api/` folder from this repository into your **MAMP `htdocs` directory**.
 
@@ -115,14 +115,14 @@ npm start
 
 ---
 
-#### ⚙️ Step 2: Start MAMP Servers
+#### Step 2: Start MAMP Servers
 
 1. Open **MAMP** application.
 2. Click **Start Servers** (This will start **Apache** and **MySQL**).
 
 ---
 
-#### 🌐 Step 3: Test Backend Connection
+#### Step 3: Test Backend Connection
 
 * Open your browser and go to:
 
@@ -134,7 +134,7 @@ npm start
 
 ---
 
-#### 🌐 Step 4: Open AI API Key
+#### Step 4: Open AI API Key
 
 * Open api/query.php and go to line 41:
 
@@ -147,7 +147,7 @@ npm start
 
 ---
 
-#### 🗂️ Additional Notes:
+#### Additional Notes:
 
 * Ensure that the `query.php`, `ms_thesis.php`, and other scripts are placed correctly inside the `api/` folder.
 * Your MySQL database (e.g., `fyp_management`) should already be imported via **phpMyAdmin**.
@@ -165,7 +165,7 @@ $this->password = ""; // Use "root" for Windows MAMP if default doesn't work
 
 
 
-## 🧐 Using the AI Query Tool
+## Using the AI Query Tool
 
 1. Navigate to **Ask & Visualize** tab
 2. Enter a query like:
@@ -183,7 +183,7 @@ $this->password = ""; // Use "root" for Windows MAMP if default doesn't work
 
 ---
 
-## 📊 Database Setup
+## Database Setup
 
 * Import `projecx.sql` via phpMyAdmin
 * Tables:
@@ -198,7 +198,7 @@ $this->password = ""; // Use "root" for Windows MAMP if default doesn't work
 
 ---
 
-## 🔄 Usage Examples
+## Usage Examples
 
 * List all projects using Node.js
 * Filter theses with advisor "Dr. X"
@@ -207,15 +207,8 @@ $this->password = ""; // Use "root" for Windows MAMP if default doesn't work
 
 ---
 
-## 🚫 Known Issues
 
-* OpenAI may return incorrect SQL
-* Long queries may timeout (retry)
-* `.env` secrets must be hidden before pushing to GitHub
-
----
-
-## 👤 Contributing
+## Contributing
 
 ```bash
 git clone https://github.com/your-username/projecx.git
@@ -228,13 +221,13 @@ Submit a pull request with a detailed description of your changes.
 
 ---
 
-## 📄 License
+## License
 
 MIT License. See [LICENSE](./LICENSE).
 
 ---
 
-## 📩 Contact
+## Contact
 
 * Aiza Shaukat
 * Email: [aizashaukat29@gmail.com](mailto:aizashaukat29@gmail.com)
