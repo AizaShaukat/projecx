@@ -1,6 +1,6 @@
-# 🧐 ProjectX – AI-Powered FYP & MS Thesis Management System
+## ProjectX – AI-Powered FYP & MS Thesis Management System
 
-![ProjectX Banner](./public/assets/projecX.png)
+![ProjectX Banner](./frontend/public/assets/projecX.png)
 
 ---
 
@@ -20,7 +20,7 @@
 
 | Ask & Visualize                         | Dashboard                                     |
 | --------------------------------------- | --------------------------------------------- |
-| ![Ask](./src/assets/fyp-query-demo.png) | ![Dashboard](./src/assets/dashboard-snap.png) |
+| ![Ask](./frontend/src/assets/dashboard.png) | ![Dashboard](./frontend/src/assets/askAndVisualise.png) |
 
 ---
 
@@ -99,7 +99,7 @@ projecx/
 ### ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/projecx.git
+git clone https://github.com/AizaShaukat/projecx.git
 cd projecx
 ```
 
@@ -111,13 +111,73 @@ npm install
 npm start
 ```
 
-### 💻 Backend Setup
-
-* Place `api/` folder in `MAMP/htdocs`
-* Start Apache and MySQL in MAMP
-* Open in browser: `http://localhost:80/api/query.php`
 
 ---
+
+### 💻 Backend Setup
+
+#### 📁 Step 1: Place the Backend Files
+
+* Copy the `api/` folder from this repository into your **MAMP `htdocs` directory**.
+
+  **Default MAMP `htdocs` paths:**
+
+  * **macOS**:
+    `/Applications/MAMP/htdocs/`
+  * **Windows**:
+    `C:\MAMP\htdocs\`
+
+---
+
+#### ⚙️ Step 2: Start MAMP Servers
+
+1. Open **MAMP** application.
+2. Click **Start Servers** (This will start **Apache** and **MySQL**).
+
+---
+
+#### 🌐 Step 3: Test Backend Connection
+
+* Open your browser and go to:
+
+  ```
+  http://localhost:80/api/query.php
+  ```
+
+* If it's working correctly, you should see a blank page or message (depending on your PHP logic).
+
+---
+
+#### 🌐 Step 4: Open AI API Key
+
+* Open api/query.php and go to line 41:
+
+  ```
+  $openAiApiKey = 'your-api-key'; //insert your open ai api key here
+  
+  ```
+
+
+
+---
+
+#### 🗂️ Additional Notes:
+
+* Ensure that the `query.php`, `ms_thesis.php`, and other scripts are placed correctly inside the `api/` folder.
+* Your MySQL database (e.g., `fyp_management`) should already be imported via **phpMyAdmin**.
+
+  * macOS: [http://localhost/phpMyAdmin](http://localhost/phpMyAdmin)
+  * Windows: [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+* Update database credentials in `api/DbConnect.php` if needed:
+
+```php
+$this->user = "root";
+$this->password = ""; // Use "root" for Windows MAMP if default doesn't work
+```
+
+---
+
+
 
 ## 🧐 Using the AI Query Tool
 
@@ -191,7 +251,7 @@ MIT License. See [LICENSE](./LICENSE).
 ## 📩 Contact
 
 * Aiza Shaukat
-* Email: [aizashaukat@example.edu](mailto:aizashaukat@example.edu)
+* Email: [aizashaukat29@gmail.com](mailto:aizashaukat29@gmail.com)
 * GitHub: [@AizaShaukat](https://github.com/AizaShaukat)
 
 ---
