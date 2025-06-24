@@ -185,7 +185,7 @@ $this->password = ""; // Use "root" for Windows MAMP if default doesn't work
 
 ## Database Setup
 
-* Import `projecx.sql` via phpMyAdmin
+* Import `db.sql` via phpMyAdmin
 * Tables:
 
   * `groups`, `group_members`, `ms_thesis`
